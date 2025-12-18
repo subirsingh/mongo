@@ -1,5 +1,5 @@
 # mongo
-spring boot application with mongo db atlas
+spring boot application with mongo db atlas with crud operation
 # MongoDB Spring Boot Application
 
 This is a Spring Boot application that connects to **MongoDB Atlas**, the fully managed cloud database service. The application demonstrates how to interact with the sample `sample_mflix` database provided by MongoDB Atlas.
