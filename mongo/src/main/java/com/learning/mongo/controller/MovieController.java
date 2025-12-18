@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-public class MongoController {
+public class MovieController {
 
     private final MovieService movieService;
 
