@@ -18,4 +18,9 @@ public class MovieController {
         List<Movie> movieList = movieService.getAllMovies();
         return movieList;
     }
+    @GetMapping("/virtual/getMovies")
+    public List<Movie> getMovieDetailsByVirtual(){
+        List<Movie> movieList = movieService.getAllMoviesByVirtualThread();
+        return movieList;
+    }
 }
