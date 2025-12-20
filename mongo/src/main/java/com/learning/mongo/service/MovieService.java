@@ -24,8 +24,8 @@ public class MovieService {
         long startTime = System.nanoTime();
         try {
                log.info("start fetching movies by all..........................................");
-              movieList.addAll(movieRepository.findAll());
-                log.info("Movies fetch by All");
+               movieList.addAll(movieRepository.findAll());
+               log.info("Movies fetch by All");
         }catch (Exception ex){
             log.info("Exception while fetching data:{}",ex.getStackTrace());
         }
